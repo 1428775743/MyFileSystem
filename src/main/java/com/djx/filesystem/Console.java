@@ -5,7 +5,6 @@ import com.djx.filesystem.constant.SingleCommend;
 import com.djx.filesystem.factory.EasyMultiplexFactory;
 
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 /**
  * @author admin_DJX
@@ -21,8 +20,6 @@ public class Console {
         }
         return console;
     }
-
-    private Logger log = Logger.getLogger("console");
 
 
     /**
