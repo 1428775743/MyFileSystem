@@ -23,7 +23,7 @@ public class EasyMultiplexFactory{
         obj = multiplexObj.get(name);
         if (obj == null){
             obj = createInstance(name);
-            multiplexObj.put("name",obj);
+            multiplexObj.put(name,obj);
         }
         return obj;
     }
